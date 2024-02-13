@@ -1,0 +1,1 @@
+dotnet publish RpgSaveConverter/RpgSaveConverter.csproj -c Release -r win-x64 --self-contained -p:PublishSingleFile=True -p:PublishTrimmed=False -o ./distrib

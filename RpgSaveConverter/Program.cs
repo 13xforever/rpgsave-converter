@@ -48,7 +48,7 @@ else
 }
 await using var output = File.Open(outputPath, new FileStreamOptions
 {
-    Mode = FileMode.OpenOrCreate,
+    Mode = FileMode.Create,
     Access = FileAccess.Write,
     Share = FileShare.Read,
     Options = FileOptions.Asynchronous | FileOptions.SequentialScan
