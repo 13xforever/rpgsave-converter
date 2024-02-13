@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgSaveConverter", "RpgSaveConverter\RpgSaveConverter.csproj", "{0009CD77-FB6D-4153-B81B-03E71849F871}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6CE9A215-100B-4EA1-A87F-A5529440145A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0009CD77-FB6D-4153-B81B-03E71849F871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0009CD77-FB6D-4153-B81B-03E71849F871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0009CD77-FB6D-4153-B81B-03E71849F871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0009CD77-FB6D-4153-B81B-03E71849F871}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
