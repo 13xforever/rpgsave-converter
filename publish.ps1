@@ -1,1 +1,2 @@
-dotnet publish RpgSaveConverter/RpgSaveConverter.csproj -c Release -r win-x64 --self-contained -p:PublishSingleFile=True -p:PublishTrimmed=False -o ./distrib
+dotnet publish RpgSaveConverter/RpgSaveConverter.csproj -c Release -r win-x64 --self-contained -p:PublishSingleFile=True -p:PublishTrimmed=False -p:DebugType=None -o ./distrib
+dotnet publish BjsonConverter/BjsonConverter.csproj -c Release -r win-x64 --self-contained -p:PublishSingleFile=True -p:PublishTrimmed=False -p:DebugType=None -o ./distrib
